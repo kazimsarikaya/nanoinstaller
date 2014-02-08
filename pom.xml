@@ -69,4 +69,12 @@
             <version>1.7.5</version>
         </dependency>
     </dependencies>
+    
+    <distributionManagement>
+        <repository>
+            <id>sanaldiyar-snapshot</id>
+            <name>Sanal Diyar Snapshot Repository</name>
+            <url>http://maven2.sanaldiyar.com/snap-repo/</url>
+        </repository>
+    </distributionManagement>
 </project>

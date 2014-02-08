@@ -1,13 +1,17 @@
+/*
+Nano System Installer
+Copryright © 2014 Kazım SARIKAYA
+
+This program is licensed under the terms of Sanal Diyar Software License. Please
+read the license file or visit http://license.sanaldiyar.com
+*/
 package com.sanaldiyar.projects.nanohttpd.nanoinstaller;
 
 import com.jcabi.aether.Aether;
 import java.io.File;
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.HelpFormatter;
@@ -19,7 +23,6 @@ import org.apache.commons.cli.PosixParser;
 import org.apache.commons.io.FileUtils;
 import org.sonatype.aether.artifact.Artifact;
 import org.sonatype.aether.repository.RemoteRepository;
-import org.sonatype.aether.resolution.DependencyResolutionException;
 import org.sonatype.aether.util.artifact.DefaultArtifact;
 
 /**
